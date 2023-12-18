@@ -49,17 +49,23 @@ cmake_ninja_workdir = C$:/Users/carlo/Documentos/Universitatem/Sup_/Porq$ no$ C+
 
 build cmake_object_order_depends_target_Porq_no_C__: phony || CMakeFiles/Porq_no_C__.dir
 
-build CMakeFiles/Porq_no_C__.dir/main.c.obj: C_COMPILER__Porq_no_C___unscanned_Debug C$:/Users/carlo/Documentos/Universitatem/Sup_/Porq$ no$ C++/main.c || cmake_object_order_depends_target_Porq_no_C__
-  DEP_FILE = CMakeFiles\Porq_no_C__.dir\main.c.obj.d
+build CMakeFiles/Porq_no_C__.dir/Ejercicios/Cadenas.c.obj: C_COMPILER__Porq_no_C___unscanned_Debug C$:/Users/carlo/Documentos/Universitatem/Sup_/Porq$ no$ C++/Ejercicios/Cadenas.c || cmake_object_order_depends_target_Porq_no_C__
+  DEP_FILE = CMakeFiles\Porq_no_C__.dir\Ejercicios\Cadenas.c.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Porq_no_C__.dir
-  OBJECT_FILE_DIR = CMakeFiles\Porq_no_C__.dir
+  OBJECT_FILE_DIR = CMakeFiles\Porq_no_C__.dir\Ejercicios
 
-build CMakeFiles/Porq_no_C__.dir/Cadenas.c.obj: C_COMPILER__Porq_no_C___unscanned_Debug C$:/Users/carlo/Documentos/Universitatem/Sup_/Porq$ no$ C++/Cadenas.c || cmake_object_order_depends_target_Porq_no_C__
-  DEP_FILE = CMakeFiles\Porq_no_C__.dir\Cadenas.c.obj.d
+build CMakeFiles/Porq_no_C__.dir/Ejercicios/main.c.obj: C_COMPILER__Porq_no_C___unscanned_Debug C$:/Users/carlo/Documentos/Universitatem/Sup_/Porq$ no$ C++/Ejercicios/main.c || cmake_object_order_depends_target_Porq_no_C__
+  DEP_FILE = CMakeFiles\Porq_no_C__.dir\Ejercicios\main.c.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Porq_no_C__.dir
-  OBJECT_FILE_DIR = CMakeFiles\Porq_no_C__.dir
+  OBJECT_FILE_DIR = CMakeFiles\Porq_no_C__.dir\Ejercicios
+
+build CMakeFiles/Porq_no_C__.dir/Ejercicios/Archivado.c.obj: C_COMPILER__Porq_no_C___unscanned_Debug C$:/Users/carlo/Documentos/Universitatem/Sup_/Porq$ no$ C++/Ejercicios/Archivado.c || cmake_object_order_depends_target_Porq_no_C__
+  DEP_FILE = CMakeFiles\Porq_no_C__.dir\Ejercicios\Archivado.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Porq_no_C__.dir
+  OBJECT_FILE_DIR = CMakeFiles\Porq_no_C__.dir\Ejercicios
 
 
 # =============================================================================
@@ -69,7 +75,7 @@ build CMakeFiles/Porq_no_C__.dir/Cadenas.c.obj: C_COMPILER__Porq_no_C___unscanne
 #############################################
 # Link the executable Porq_no_C__.exe
 
-build Porq_no_C__.exe: C_EXECUTABLE_LINKER__Porq_no_C___Debug CMakeFiles/Porq_no_C__.dir/main.c.obj CMakeFiles/Porq_no_C__.dir/Cadenas.c.obj
+build Porq_no_C__.exe: C_EXECUTABLE_LINKER__Porq_no_C___Debug CMakeFiles/Porq_no_C__.dir/Ejercicios/Cadenas.c.obj CMakeFiles/Porq_no_C__.dir/Ejercicios/main.c.obj CMakeFiles/Porq_no_C__.dir/Ejercicios/Archivado.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Porq_no_C__.dir

@@ -16,7 +16,3 @@ void inception() {
     printf("Número aleatorio: %d\n", random);
 }
 
-int main(){
-    absolute();
-    inception();
-}

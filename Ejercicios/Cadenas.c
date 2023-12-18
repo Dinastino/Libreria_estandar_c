@@ -5,6 +5,12 @@ void expectativas_incompletas() {
     char str1[100];
     char str2[100];
 
+    printf("Escribe la primera cadena: \n");
+    scanf("%d", str1);
+
+    printf("Escribe la segunda cadena: \n");
+    scanf("%d", str2);
+
     int comparison = strcmp(str1, str2);
 
     if (comparison == 0) {
@@ -16,6 +22,8 @@ void expectativas_incompletas() {
 
 void longitudinales(){
     char str[100];
+    printf("Escribe la cadena: \n");
+    scanf("%d", str);
 
     int length = strlen(str);
 
